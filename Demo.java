@@ -47,7 +47,7 @@ public class Demo{
     return result;
   }
 
-  public static String arrToDeepString(int[][] arr){
+  public static String arrDeepToString(int[][] arr){
     String[] elements;
     elements = new String[arr.length];
     for (int i = 0; i < arr.length; i++){
